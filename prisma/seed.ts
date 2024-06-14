@@ -3,7 +3,7 @@ import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 async function main() {
-  const emblemas = [
+  const emblems = [
     {
       slug: 'cda',
       name: 'Cidade Alta',
@@ -57,9 +57,9 @@ async function main() {
     },
   ];
 
-  for (const emblema of emblemas) {
-    await prisma.emblemas.create({
-      data: emblema,
+  for (const emblem of emblems) {
+    await prisma.emblems.create({
+      data: emblem,
     });
   }
   console.log('Banco de dados populado com sucesso!');
