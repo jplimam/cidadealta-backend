@@ -60,11 +60,12 @@ $ npm run test:cov
 
 ## Support
 
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
 ## Swagger
 
 Ao rodar o projeto, o usuário pode acessar as rotas e documentação do projeto através do link do Swagger: http://localhost:3000/api.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
 ## Stay in touch
 
